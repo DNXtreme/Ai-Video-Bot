@@ -16,7 +16,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
-const TELEGRAM_CHAT_ID = "@dnxtreme";
+const TELEGRAM_CHAT_ID = "5506358369";
 
 if (!TELEGRAM_BOT_TOKEN) {
   console.error("💀 TELEGRAM_BOT_TOKEN is missing. Go check your .env.");
